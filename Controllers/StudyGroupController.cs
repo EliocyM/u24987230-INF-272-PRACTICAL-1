@@ -14,13 +14,13 @@ namespace u24987230_INF_272_PRACTICAL_1.Controllers
         {
             var members = new List<StudyGroupMember>
             {
-                new StudyGroupMember { StudentNumber = 12345678, Name = "John", Surname = "Doe", EmailAddress = "john.doe@tuks.co.za" };
-                new StudyGroupMember { StudentNumber = 23456789, Name = "Jane", Surname = "Doe", EmailAddress = "jane.doe@tuks.co.za" };
-                new StudyGroupMember { StudentNumber = 34567890, Name = "Mark", Surname = "Smith", EmailAddress = "mark.smith@tuks.co.za" };
-                new StudyGroupMember { StudentNumber = 45678901, Name = "Sarah", Surname = "Johnson", EmailAddress = "sarah.johnson@tuks.co.za" };
-                new StudyGroupMember { StudentNumber = 56789012, Name = "Emily", Surname = "Brown", EmailAddress = "emily.brown@tuks.co.za" };
+                new StudyGroupMember { StudentNumber = 24987230, Name = "Eliocy", Surname = "Mugabe", EmailAddress = "john.doe@tuks.co.za" },
+                new StudyGroupMember { StudentNumber = 23530325, Name = "Anke", Surname = "Hood", EmailAddress = "jane.doe@tuks.co.za" },
+                new StudyGroupMember { StudentNumber = 22566521, Name = "Liya", Surname = "Smith", EmailAddress = "mark.smith@tuks.co.za" },
+                new StudyGroupMember { StudentNumber = 22738241, Name = "Xolani", Surname = "Johnson", EmailAddress = "sarah.johnson@tuks.co.za" },
+                new StudyGroupMember { StudentNumber = 22558307, Name = "Emily", Surname = "Brown", EmailAddress = "emily.brown@tuks.co.za" },
             };
-            return View();
+            return View("Index", members);
         }
     }
 }
